@@ -1,0 +1,217 @@
+%% Classe de documento e opções
+\documentclass[%% Opções: [*] comente para remover; [>] passada para pacotes
+  article,%% Tipo de documento: article, book, report, etc. [>]
+  a4paper,%% Tamanho de papel: a4paper, letterpaper, etc. [>]
+  12pt,%% Tamanho de fonte: 10pt, 11pt, 12pt, etc. [>]
+  fleqn,%% Alinhamento de equações à esquerda (comente para centralizado) [>]
+  oneside,%% Impressão: oneside (anverso) ou twoside (anverso e verso) [>]
+  % twocolumn,%% Texto em duas colunas (comente para uma coluna) [>]
+  chapter = TITLE,%% Títulos de capítulos em maiúsculas [*]
+  section = TITLE,%% Títulos de seções (secundárias) em maiúsculas [*]
+]{abntex2}
+
+%% Pacotes utilizados
+\usepackage[%% Opções
+  BibURLs = false,%% Links de URLs nas referências: true ou false
+  ABNTNum = none,%% Estilo numérico ABNT: none (AUTOR, ANO), dflt (1) e brkt [1]
+]{unoesc-article}
+
+\usepackage{caption}
+
+
+
+
+%% Arquivo de referências
+\addbibresource{unoesc-article.bib}
+
+%% Informações do documento
+%%%% Título
+\titulo{WEB APLICATIVO PARA GERENCIAMENTO DE RECEITAS E AUXÍLIO NA BUSCA POR ATENDIMENTO DE URGÊNCIA}
+%%%% Título em outro idioma
+% \titleinenglish{%
+%   Title of the academic work or%
+%   \nextline scientific article or research project%
+% }
+%%%% Autor(es) e afiliação(ões)
+\autor{%
+  Kauan Pompermaier silvani, Eliel Bombieri Biberg %
+  \thanks{%
+    \affil{Bacharel Sistemas de Informação; UNOESC ; Chapecó}%
+    \sep\email{kauan.silvani@unoesc.edu.br}%
+  }%
+  \thanks{%
+    \affil{Bacharel Sistemas de Informação; UNOESC ; Chapecó}%
+    \sep\email{eliel.b@unoesc.edu.br}%
+  }%
+  \and Prof. Jacson Luiz Matte%
+  \thanks{%
+    \affil{Especialista em Desenvolvimento de aplicações Web; UNOPAR; Chapecó}%
+    \sep\email{jacson.matte@unoesc.edu.br.}%
+  }
+}
+
+\data{}
+
+%% Ferramenta para criação de índices
+\makeindex%
+\crefname{figure}{Figura}{Figuras}
+\crefname{table}{Quadro}{Quadros}
+%% Início do documento
+\begin{document}
+
+\pretextual%% Elementos pré-textuais
+
+\begin{paginadetitulo}%% Página de título
+
+\end{paginadetitulo}
+
+\textual%% Elementos textuais
+
+\section{Introdução}\label{sec:intro}
+
+A crescente integração da tecnologia na vida cotidiana tem transformado a área da saúde, empoderando os indivíduos na gestão de sua própria jornada de cuidado. Neste cenário, a adesão a tratamentos de uso contínuo ou prolongado e o acesso eficiente a serviços de emergência emergem como desafios críticos para o paciente.
+
+De um lado, um obstáculo recorrente é o gerenciamento da validade das receitas médicas, cuja perda de prazo pode causar a interrupção abrupta da medicação. De outro, a busca por atendimento de urgência é frequentemente marcada pela incerteza e por longos tempos de espera, com pacientes sem saber qual Unidade de Pronto Atendimento (UPA) oferece o atendimento mais rápido e eficiente naquele momento.
+
+Diante dessas duas lacunas, o presente trabalho propõe o desenvolvimento de uma plataforma web integrada. A solução consiste em um sistema que, além de emitir alertas sobre o vencimento de receitas, incorpora uma funcionalidade de mapeamento de UPAs, recomendando ao usuário a unidade mais próxima e a menos lotada, com base em informações colaborativas. Este artigo apresentará a justificativa para o desenvolvimento de tal ferramenta, seus objetivos e a metodologia a ser adotada.
+
+
+\section{Delimitação do Tema}\label{sec:metod}
+
+O presente projeto delimita-se ao desenvolvimento de uma plataforma web com um duplo foco: gerenciamento de receitas e auxílio na busca por atendimento de urgência. O escopo do sistema concentra-se nas seguintes funcionalidades:
+
+    Cadastro de Usuário: Permitir que o usuário crie uma conta pessoal.
+
+    Cadastro de Receitas: Oferecer uma interface para o usuário inserir informações de suas receitas (medicamento, data de emissão, validade).
+
+    Sistema de Notificação de Receitas: Implementar alertas automáticos sobre a proximidade do vencimento das receitas cadastradas.
+
+    Mapeamento e Geolocalização de UPAs: Utilizar a localização do usuário para identificar e exibir em um mapa as UPAs mais próximas.
+
+    Sistema Colaborativo de Lotação: Implementar uma funcionalidade onde os próprios usuários possam informar o nível de lotação de uma UPA (ex: baixo, médio, alto), cujos dados servirão de base para as recomendações do sistema a outros usuários.
+
+Não fazem parte do escopo deste projeto:
+
+    A integração direta com sistemas de farmácias ou prontuários eletrônicos.
+
+    A prescrição ou indicação de medicamentos.
+
+    A verificação de lotação das UPAs através de sistemas oficiais. A funcionalidade dependerá exclusivamente de informações fornecidas de forma colaborativa pelos usuários da plataforma.
+
+    O desenvolvimento de um aplicativo móvel nativo (iOS/Android).
+  
+\section{Objetivo Geral}
+A presente proposta tem como objetivo geral desenvolver uma plataforma web destinada ao gerenciamento de receitas médicas, com um sistema de notificações proativas via pop-up para alertar a proximidade do vencimento de receitas, visando assegurar aos usuários a continuidade e adesão a tratamentos de saúde. 
+
+ 
+\section{Proposta de Justificativa}
+
+A adesão contínua a tratamentos médicos é um pilar fundamental para a manutenção da saúde e qualidade de vida, especialmente para a população adulta e idosa, que frequentemente lida com condições crônicas que exigem medicação regular. 
+Um obstáculo comum e significativo nesse processo é o gerenciamento da validade das receitas médicas. O esquecimento ou perca da data de renovação resulta na impossibilidade de adquirir o medicamento necessário, causando uma interrupção forçada no tratamento.
+
+As consequências dessa interrupção vão além do risco clínico. Ao se deparar com uma receita vencida no balcão da farmácia o paciente enfrenta frustração, estresse e a necessidade urgente de agendar nova consulta médica, o que pode sobrecarregar tanto o indivíduo quanto o sistema de saúde. Este cenário é particularmente crítico para idosos, que em sua maioria precisam gerenciar múltiplas receitas simultaneamente e podem ter maiores dificuldades com a organização de prazos.
+
+Diante da aparente carência de soluções digitais focadas nesse problema, o presente projeto se justifica pela sua relevância social e impacto direto no bem-estar do paciente. A proposta de desenvolver um site que envie alertas automáticos antes do vencimento das receitas ataca a raiz do problema de forma simples e eficaz. A plataforma visa, portanto, empoderar os usuários, oferecendo uma ferramenta prática para o controle de sua saúde, reduzindo a descontinuidade de tratamentos.
+
+\newpage
+
+\section {Trabalhos Relacionados}
+Nesta seção são apresentados sistemas e aplicativos similares ao projeto proposto, que tem como objetivo gerenciar o vencimento de receitas médicas e indicar a unidade de pronto atendimento (UPA) mais adequada ao paciente. A análise busca identificar boas práticas, limitações e os diferenciais do projeto desenvolvido pelo grupo.
+
+\subsection {Medisafe}
+É um aplicativo amplamente utilizado para o gerenciamento de medicamentos. Ele permite registrar o nome dos remédios, horários de uso e enviar lembretes automáticos sobre as doses. Além disso, possibilita o compartilhamento das informações com familiares ou cuidadores, promovendo maior adesão ao tratamento (MEDISAFE, 2024).
+
+O que faz bem: oferece uma interface simples e intuitiva, com lembretes eficazes e controle detalhado do uso de medicamentos.
+
+O que falta: não realiza controle sobre vencimentos de receitas médicas nem indica locais de atendimento de saúde.
+
+Diferencial do projeto: o sistema proposto vai além do controle de medicação, oferecendo alertas de validade de receitas e sugestão da melhor UPA com base em localização e necessidade do paciente.
+
+\subsection {Conecte SUS}
+Desenvolvido pelo Ministério da Saúde, é a principal plataforma digital do Governo Federal voltada à centralização de informações de saúde do cidadão. Nela é possível visualizar vacinas, receitas, exames e histórico de atendimentos, integrando dados à Rede Nacional de Dados em Saúde (RNDS) (MINISTÉRIO DA SAÚDE, 2024).
+
+O que faz bem: integra e disponibiliza informações oficiais de saúde em um único ambiente, garantindo autenticidade e segurança.
+
+O que falta: não possui funções voltadas à gestão de prazos de validade de receitas nem recomenda qual unidade de atendimento o paciente deve procurar.
+
+Diferencial do projeto: o sistema proposto atua de forma complementar, oferecendo alertas automáticos sobre vencimentos e indicações inteligentes de UPA, algo que o Conecte SUS ainda não contempla.
+
+\subsection {Doutor Digital}
+É uma plataforma privada que permite a renovação de receitas médicas online e a realização de teleconsultas, facilitando o processo para pacientes que utilizam medicamentos de uso contínuo (DOUTOR DIGITAL, 2024).
+
+O que faz bem: agiliza o processo de renovação de receitas sem a necessidade de deslocamento físico, garantindo praticidade e acessibilidade.
+
+O que falta: não monitora datas de vencimento de receitas nem faz análise de qual unidade de atendimento é mais adequada ao paciente.
+
+Diferencial do projeto: o sistema proposto combina a gestão proativa do vencimento de receitas com recomendações personalizadas de atendimento, permitindo ao usuário identificar rapidamente se deve renovar a receita online ou dirigir-se à UPA indicada.
+
+
+\section {Conclusão da Análise}
+Os sistemas analisados apresentam soluções importantes na área da saúde dentro do âmbito digital, porém abordam apenas partes específicas do problema, onde o Medisafe foca no controle de medicamentos, já o ConecteSUS centraliza dados clínicos e por fim o Doutor Digital facilita a renovação de prescrições. O presente projeto diferencia-se por integrar essas três vertentes em uma única plataforma, proporcionando ao usuário um ambiente unificado para controlar vencimentos, receber alertas e localizar o melhor ponto de atendimento.
+
+\section{DEFINIÇÃO DE REQUISITOS}
+A etapa inicial do projeto, alinhada com o modelo cascata, engloba a aquisição e a detalhada especificação dos requisitos, englobando tanto os aspectos funcionais quanto os não funcionais. Os requisitos funcionais estão minuciosamente delineados no \cref{table:result}, enquanto os requisitos não funcionais podem ser minuciosamente explorados no \cref{tab:resulta}. 
+
+\begin{table*}[!htb]
+\renewcommand{\tablename}{Quadro}
+    \captionsetup{justification=raggedright,singlelinecheck=false}
+    \caption{Requisitos Não Funcionais do Sistema}%
+    \label{tab:resulta}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c >{\raggedright\arraybackslash}p{0.85\textwidth}}
+        \toprule
+        \textbf{Requisito} & \textbf{Descrição} \\
+        \midrule
+        RNF01 & Usabilidade: O sistema deve apresentar uma interface simples, intuitiva e de fácil navegação, permitindo que usuários de diferentes níveis de familiaridade com tecnologia consigam cadastrar e consultar informações sem dificuldade.\\
+        RNF02 & Responsividade: O sistema deve ser compatível com diferentes dispositivos, incluindo computadores, tablets e smartphones, ajustando automaticamente sua interface para proporcionar uma boa experiência em qualquer tamanho de tela.\\
+       RNF03 & Desempenho: O sistema deve apresentar tempo de resposta rápido, garantindo que o carregamento de páginas e consultas a dados de receitas ou UPAs ocorra de forma eficiente, mesmo com múltiplos acessos simultâneos.\\
+        RNF04 & Segurança da Informação: O sistema deve garantir a proteção dos dados dos usuários, especialmente informações médicas e pessoais, por meio de criptografia, autenticação segura e controle de acesso.\\
+        RNF05 & Confiabilidade: O sistema deve assegurar a disponibilidade contínua das informações e manter integridade dos dados cadastrados, mesmo em casos de falhas de conexão ou interrupções temporárias.\\
+        RNF06 & Manutenibilidade: O código-fonte deve ser organizado, documentado e modularizado, permitindo que futuras atualizações, correções e expansões de funcionalidades sejam realizadas de forma simples e eficiente.\\
+        RNF07 & Acessibilidade: O sistema deve adotar boas práticas de acessibilidade, como contraste adequado, textos alternativos em imagens e compatibilidade com leitores de tela, garantindo o uso por pessoas com diferentes necessidades.\\
+        RNF08 & Portabilidade: O sistema deve ser desenvolvido em tecnologias compatíveis com navegadores modernos (como Google Chrome, Edge e Firefox) e não exigir instalações adicionais no dispositivo do usuário.\\
+        RNF09 & Armazenamento de Dados: As informações inseridas no sistema devem ser armazenadas de forma segura e persistente em banco de dados, com backups automáticos para prevenir perda de informações.\\
+        RNF10 & Disponibilidade de Código: O projeto deve ter seu código aberto e acessível no GitHub, promovendo transparência, colaboração e possibilidade de auditoria pela comunidade acadêmica e desenvolvedores interessados.\\
+        \bottomrule
+    \end{tabular*}
+    \fonte{Kauan Pompermaier silvani, Eliel Bombieri Biberg(2025)}
+\end{table*}
+
+\begin{table}[!htb]
+\renewcommand{\tablename}{Quadro}
+\captionsetup{justification=raggedright,singlelinecheck=false}
+    \caption{Requisitos Funcionais do Sistema}%
+    \centering%
+    \label{table:result}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c >{\raggedright\arraybackslash}p{0.85\textwidth}}
+        \toprule
+        \textbf{Requisito} & \textbf{Descrição} \\
+        \midrule
+        RF01 & Cadastro de Usuário: O sistema deve permitir que o usuário realize seu cadastro, informando dados pessoais básicos, como nome, e-mail e senha, a fim de garantir o acesso individual e seguro às suas informações médicas. \\
+        RF02 & Login e Autenticação: O sistema deve permitir que o usuário acesse sua conta por meio de autenticação segura, possibilitando o gerenciamento das receitas e preferências salvas.\\
+        RF03 & Cadastro de Receitas Médicas: O sistema deve permitir que o usuário registre novas receitas médicas, informando o nome do medicamento, data de emissão, médico responsável e validade da prescrição.\\
+        RF04 & Controle de Vencimento de Receitas: O sistema deve monitorar automaticamente o vencimento das receitas cadastradas, exibindo alertas e notificações quando a data de validade estiver próxima ou expirada.\\
+        RF05 & Notificações Automáticas: O sistema deve enviar lembretes (via e-mail ou notificação no site) para alertar o usuário sobre o prazo de vencimento das receitas e sugerir ações preventivas, como agendar nova consulta ou procurar atendimento.\\
+        RF06 & Indicação de Unidade de Pronto Atendimento (UPA): O sistema deve indicar a UPA mais adequada ao usuário com base em sua localização atual, tipo de atendimento necessário e nível de lotação (quando disponível).\\
+        RF07 & Exibição de Informações das UPAs: O sistema deve permitir a visualização detalhada das UPAs disponíveis, exibindo endereço, horário de funcionamento, distância e tempo médio de espera (quando houver dados públicos disponíveis).\\
+        RF08 & Renovação de Receita: O sistema deve oferecer ao usuário a opção de solicitar renovação da receita médica online, redirecionando-o para serviços de telemedicina parceiros quando aplicável.\\
+        RF09 & Histórico de Receitas: O sistema deve manter um histórico das receitas médicas cadastradas, incluindo dados de validade, status (ativa ou vencida) e renovações realizadas.\\
+        RF10 & Relatórios e Estatísticas: O sistema deve gerar relatórios com informações sobre o histórico de receitas, frequência de renovações e atendimentos realizados, permitindo que o usuário acompanhe seu histórico de saúde de forma organizada.\\
+        RF11 & Atualização de Dados do Usuário: O sistema deve permitir que o usuário atualize suas informações pessoais e gerencie suas preferências, como forma de contato e tipo de notificação desejada.\\
+        RF12 & Acesso Responsivo: O sistema deve ser acessível em dispositivos móveis e desktops, adaptando automaticamente o layout para diferentes tamanhos de tela, garantindo usabilidade e acessibilidade.\\
+        \bottomrule
+    \end{tabular*}
+    \fonte{Kauan Pompermaier silvani, Eliel Bombieri Biberg(2025)}
+\end{table}
+\newpage
+
+\section {Referências}
+DOUTOR DIGITAL. Renovação de receitas médicas online. Disponível em: https://www.doutordigital.com.br/. Acesso em: 8 nov. 2025.
+
+MEDISAFE. Medication Management App. Disponível em: https://www.medisafeapp.com/. Acesso em: 8 nov. 2025.
+
+MINISTÉRIO DA SAÚDE (Brasil). Conecte SUS Cidadão. Disponível em: https://conectesus.saude.gov.br/. Acesso em: 8 nov. 2025.
+
+\newpage
+
+
+\end{document}

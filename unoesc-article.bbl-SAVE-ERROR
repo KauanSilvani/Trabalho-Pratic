@@ -1,0 +1,727 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{akabane2018gestao}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cc154a297fc6dd14ee08365bfb8aba00}{%
+           family={Akabane},
+           familyi={A\bibinitperiod},
+           given={Getúlio\bibnamedelima K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Érica}%
+      }
+      \strng{namehash}{cc154a297fc6dd14ee08365bfb8aba00}
+      \strng{fullhash}{cc154a297fc6dd14ee08365bfb8aba00}
+      \strng{fullhashraw}{cc154a297fc6dd14ee08365bfb8aba00}
+      \strng{bibnamehash}{cc154a297fc6dd14ee08365bfb8aba00}
+      \strng{authorbibnamehash}{cc154a297fc6dd14ee08365bfb8aba00}
+      \strng{authornamehash}{cc154a297fc6dd14ee08365bfb8aba00}
+      \strng{authorfullhash}{cc154a297fc6dd14ee08365bfb8aba00}
+      \strng{authorfullhashraw}{cc154a297fc6dd14ee08365bfb8aba00}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gestão Estratégica das Tecnologias Cognitivas: conceitos, metodologias e aplicações}
+      \field{year}{2018}
+      \field{pages}{240}
+      \range{pages}{1}
+    \endentry
+    \entry{alcatorre2014introducao}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=853ee266e6f225525366ee8c6167b583}{%
+           family={Alcatorre},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccefc20c242c33b63dff9e071f714c12}{%
+           family={Histand},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Bookman}%
+      }
+      \strng{namehash}{6fcf683e8638e17590865758e2815f9a}
+      \strng{fullhash}{6fcf683e8638e17590865758e2815f9a}
+      \strng{fullhashraw}{6fcf683e8638e17590865758e2815f9a}
+      \strng{bibnamehash}{6fcf683e8638e17590865758e2815f9a}
+      \strng{authorbibnamehash}{6fcf683e8638e17590865758e2815f9a}
+      \strng{authornamehash}{6fcf683e8638e17590865758e2815f9a}
+      \strng{authorfullhash}{6fcf683e8638e17590865758e2815f9a}
+      \strng{authorfullhashraw}{6fcf683e8638e17590865758e2815f9a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Introdução à Mecatrônica e aos sistemas de medições}
+      \field{year}{2014}
+    \endentry
+    \entry{AvilaEtAl2010v2}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=46e620fd316b6ebe6d3bf25b5006581e}{%
+           family={Ávila},
+           familyi={Á\bibinitperiod},
+           given={L.\bibnamedelimi F.},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44ea0976237036e9389ac0aa22f98a94}{%
+           family={Mello},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=add5d65c3705405802ef728216a6abfe}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{d81992208f57f4065bc3afb4941bcb79}
+      \strng{fullhash}{d81992208f57f4065bc3afb4941bcb79}
+      \strng{fullhashraw}{d81992208f57f4065bc3afb4941bcb79}
+      \strng{bibnamehash}{d81992208f57f4065bc3afb4941bcb79}
+      \strng{authorbibnamehash}{d81992208f57f4065bc3afb4941bcb79}
+      \strng{authornamehash}{d81992208f57f4065bc3afb4941bcb79}
+      \strng{authorfullhash}{d81992208f57f4065bc3afb4941bcb79}
+      \strng{authorfullhashraw}{d81992208f57f4065bc3afb4941bcb79}
+      \field{sortinit}{Á}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Brasileira de Engenharia Agrícola e Ambiental}
+      \field{number}{12}
+      \field{title}{Continuidade e distribuição espacial da umidade do solo em bacia hidrográfica da Serra da Mantiqueira}
+      \field{volume}{14}
+      \field{year}{2010}
+      \field{pages}{1257\bibrangedash 1266}
+      \range{pages}{10}
+    \endentry
+    \entry{bernardo2006manual}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e58fa4cf836254e7005deefe2f825946}{%
+           family={Bernardo},
+           familyi={B\bibinitperiod},
+           given={Salassier},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6792b356fd2077a71256f05035dfa718}{%
+           family={Soares},
+           familyi={S\bibinitperiod},
+           given={Antonio\bibnamedelima Alves},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b07a958e9d1244c535b4ccc9676ee28}{%
+           family={Mantovani},
+           familyi={M\bibinitperiod},
+           given={Everardo\bibnamedelima Chartuni},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Viçosa}%
+      }
+      \list{publisher}{1}{%
+        {UFV}%
+      }
+      \strng{namehash}{18701edf5f37d710abc0ae6b1e219dbf}
+      \strng{fullhash}{18701edf5f37d710abc0ae6b1e219dbf}
+      \strng{fullhashraw}{18701edf5f37d710abc0ae6b1e219dbf}
+      \strng{bibnamehash}{18701edf5f37d710abc0ae6b1e219dbf}
+      \strng{authorbibnamehash}{18701edf5f37d710abc0ae6b1e219dbf}
+      \strng{authornamehash}{18701edf5f37d710abc0ae6b1e219dbf}
+      \strng{authorfullhash}{18701edf5f37d710abc0ae6b1e219dbf}
+      \strng{authorfullhashraw}{18701edf5f37d710abc0ae6b1e219dbf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8}
+      \field{note}{Atualizada e ampliada}
+      \field{title}{Manual de irrigação}
+      \field{year}{2006}
+      \field{pages}{625}
+      \range{pages}{1}
+    \endentry
+    \entry{coelho2009agricultura}{book}{}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=62c9be0004fec58486d1a234b2e53de5}{%
+           family={Coelho},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi P.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=c1c11a1af6eae157ae97d88fc8c95e05}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi M.\bibnamedelimi D.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13f28bda7390b0c787bb9f0d43d4f4fc}{%
+           family={Pinheiro},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c44af43feb46eda34b43681d957f522}{%
+           family={Tristany},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17a0278e67243cf31438cb4bce0144f8}{%
+           family={Neto},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi D.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Associação dos Jovens Agricultores de Portugal}%
+      }
+      \strng{namehash}{a952868e61eeb87d333f3585fad6fc7c}
+      \strng{fullhash}{f0874e6e9a1171f8dceffb5e4783fd74}
+      \strng{fullhashraw}{f0874e6e9a1171f8dceffb5e4783fd74}
+      \strng{bibnamehash}{a952868e61eeb87d333f3585fad6fc7c}
+      \strng{authorbibnamehash}{a952868e61eeb87d333f3585fad6fc7c}
+      \strng{authornamehash}{a952868e61eeb87d333f3585fad6fc7c}
+      \strng{authorfullhash}{f0874e6e9a1171f8dceffb5e4783fd74}
+      \strng{authorfullhashraw}{f0874e6e9a1171f8dceffb5e4783fd74}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Agricultura de precisão}
+      \field{year}{2009}
+      \field{pages}{2\bibrangedash 33}
+      \range{pages}{32}
+    \endentry
+    \entry{coelho2003desenvolvimento}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=541b564b535e78fe36e70dd0e204d095}{%
+           family={Coelho},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{institution}{1}{%
+        {Departamento de Engenharia Agrícola, Universidade Federal do Ceará}%
+      }
+      \list{location}{1}{%
+        {Fortaleza}%
+      }
+      \strng{namehash}{541b564b535e78fe36e70dd0e204d095}
+      \strng{fullhash}{541b564b535e78fe36e70dd0e204d095}
+      \strng{fullhashraw}{541b564b535e78fe36e70dd0e204d095}
+      \strng{bibnamehash}{541b564b535e78fe36e70dd0e204d095}
+      \strng{authorbibnamehash}{541b564b535e78fe36e70dd0e204d095}
+      \strng{authornamehash}{541b564b535e78fe36e70dd0e204d095}
+      \strng{authorfullhash}{541b564b535e78fe36e70dd0e204d095}
+      \strng{authorfullhashraw}{541b564b535e78fe36e70dd0e204d095}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{note}{106 f.}
+      \field{title}{Desenvolvimento de um tensiômetro eletrônico para o monitoramento do potencial da água no solo}
+      \field{type}{Dissertação de Mestrado}
+      \field{year}{2003}
+    \endentry
+    \entry{Cuenca1989v2}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5ae59514c80613c781b31e44773d1b9d}{%
+           family={Cuenca},
+           familyi={C\bibinitperiod},
+           given={H.\bibnamedelimi R.},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New Jersey}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{5ae59514c80613c781b31e44773d1b9d}
+      \strng{fullhash}{5ae59514c80613c781b31e44773d1b9d}
+      \strng{fullhashraw}{5ae59514c80613c781b31e44773d1b9d}
+      \strng{bibnamehash}{5ae59514c80613c781b31e44773d1b9d}
+      \strng{authorbibnamehash}{5ae59514c80613c781b31e44773d1b9d}
+      \strng{authornamehash}{5ae59514c80613c781b31e44773d1b9d}
+      \strng{authorfullhash}{5ae59514c80613c781b31e44773d1b9d}
+      \strng{authorfullhashraw}{5ae59514c80613c781b31e44773d1b9d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Irrigation System Design: An Engineering Approach}
+      \field{year}{1989}
+      \field{pages}{552}
+      \range{pages}{1}
+    \endentry
+    \entry{Embrapa2008v2}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62a74bb8f13be46e5b4e0b6d72670817}{%
+           family={{Embrapa}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{62a74bb8f13be46e5b4e0b6d72670817}
+      \strng{fullhash}{62a74bb8f13be46e5b4e0b6d72670817}
+      \strng{fullhashraw}{62a74bb8f13be46e5b4e0b6d72670817}
+      \strng{bibnamehash}{62a74bb8f13be46e5b4e0b6d72670817}
+      \strng{authorbibnamehash}{62a74bb8f13be46e5b4e0b6d72670817}
+      \strng{authornamehash}{62a74bb8f13be46e5b4e0b6d72670817}
+      \strng{authorfullhash}{62a74bb8f13be46e5b4e0b6d72670817}
+      \strng{authorfullhashraw}{62a74bb8f13be46e5b4e0b6d72670817}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Embrapa.br}
+      \field{title}{Agência Embrapa de Informação Tecnológica - Irrigação}
+      \field{year}{2008}
+    \endentry
+    \entry{OpenMeteoAPI}{online}{}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Free Open-Source Weather API}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://open-meteo.com/
+      \endverb
+      \verb{url}
+      \verb https://open-meteo.com/
+      \endverb
+    \endentry
+    \entry{Gil2008}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ba72912539d99c3978f563bf5f56760e}{%
+           family={Gil},
+           familyi={G\bibinitperiod},
+           given={Antonio\bibnamedelima Carlos},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editora Atlas SA}%
+      }
+      \strng{namehash}{ba72912539d99c3978f563bf5f56760e}
+      \strng{fullhash}{ba72912539d99c3978f563bf5f56760e}
+      \strng{fullhashraw}{ba72912539d99c3978f563bf5f56760e}
+      \strng{bibnamehash}{ba72912539d99c3978f563bf5f56760e}
+      \strng{authorbibnamehash}{ba72912539d99c3978f563bf5f56760e}
+      \strng{authornamehash}{ba72912539d99c3978f563bf5f56760e}
+      \strng{authorfullhash}{ba72912539d99c3978f563bf5f56760e}
+      \strng{authorfullhashraw}{ba72912539d99c3978f563bf5f56760e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{Métodos e Técnicas de Pesquisa Social}
+      \field{year}{2008}
+    \endentry
+    \entry{HenzAlcantara2009v2}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0c9b61148ad96630db5d910aa3003e48}{%
+           family={Henz},
+           familyi={H\bibinitperiod},
+           given={Gilmar\bibnamedelima Paulo},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea689bba1ea2e5101e05f9fe3b64ad97}{%
+           family={Alcântara},
+           familyi={A\bibinitperiod},
+           given={Flávia\bibnamedelimb Aparecida\bibnamedelima De},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Brasília}%
+      }
+      \list{publisher}{1}{%
+        {Embrapa Informação Tecnológica}%
+      }
+      \strng{namehash}{a1929eb90332289af768fef7a0b331a9}
+      \strng{fullhash}{a1929eb90332289af768fef7a0b331a9}
+      \strng{fullhashraw}{a1929eb90332289af768fef7a0b331a9}
+      \strng{bibnamehash}{a1929eb90332289af768fef7a0b331a9}
+      \strng{authorbibnamehash}{a1929eb90332289af768fef7a0b331a9}
+      \strng{authornamehash}{a1929eb90332289af768fef7a0b331a9}
+      \strng{authorfullhash}{a1929eb90332289af768fef7a0b331a9}
+      \strng{authorfullhashraw}{a1929eb90332289af768fef7a0b331a9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{O Produtor Pergunta, a Embrapa Responde}
+      \field{year}{2009}
+    \endentry
+    \entry{Kurniawan2019}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=739e01211a8faa20376ec9cba48548a3}{%
+           family={Kurniawan},
+           familyi={K\bibinitperiod},
+           given={Agus},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {S. L.}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{739e01211a8faa20376ec9cba48548a3}
+      \strng{fullhash}{739e01211a8faa20376ec9cba48548a3}
+      \strng{fullhashraw}{739e01211a8faa20376ec9cba48548a3}
+      \strng{bibnamehash}{739e01211a8faa20376ec9cba48548a3}
+      \strng{authorbibnamehash}{739e01211a8faa20376ec9cba48548a3}
+      \strng{authornamehash}{739e01211a8faa20376ec9cba48548a3}
+      \strng{authorfullhash}{739e01211a8faa20376ec9cba48548a3}
+      \strng{authorfullhashraw}{739e01211a8faa20376ec9cba48548a3}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Internet of Things Projects with ESP32: Build exciting and powerful IoT projects using the all-new Espressif ESP32}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{252}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://bit.ly/3clSqM8
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/3clSqM8
+      \endverb
+    \endentry
+    \entry{padua2010}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=89009e605eaa70a59a782fb92efe975b}{%
+           family={Pádua},
+           familyi={P\bibinitperiod},
+           given={José\bibnamedelima Augusto},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{89009e605eaa70a59a782fb92efe975b}
+      \strng{fullhash}{89009e605eaa70a59a782fb92efe975b}
+      \strng{fullhashraw}{89009e605eaa70a59a782fb92efe975b}
+      \strng{bibnamehash}{89009e605eaa70a59a782fb92efe975b}
+      \strng{authorbibnamehash}{89009e605eaa70a59a782fb92efe975b}
+      \strng{authornamehash}{89009e605eaa70a59a782fb92efe975b}
+      \strng{authorfullhash}{89009e605eaa70a59a782fb92efe975b}
+      \strng{authorfullhashraw}{89009e605eaa70a59a782fb92efe975b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{jpadua@terra.com.br}}
+      \field{note}{Recebido em 18.2.2010 e aceito em 24.2.2010}
+      \field{title}{Um sopro de destruição: pensamento político e crítica ambiental no Brasil}
+      \field{year}{2010}
+    \endentry
+    \entry{Ribeiro}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4898e2b33d5474fa67f1333ff5f5e6f7}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[s.n.]}%
+      }
+      \strng{namehash}{4898e2b33d5474fa67f1333ff5f5e6f7}
+      \strng{fullhash}{4898e2b33d5474fa67f1333ff5f5e6f7}
+      \strng{fullhashraw}{4898e2b33d5474fa67f1333ff5f5e6f7}
+      \strng{bibnamehash}{4898e2b33d5474fa67f1333ff5f5e6f7}
+      \strng{authorbibnamehash}{4898e2b33d5474fa67f1333ff5f5e6f7}
+      \strng{authornamehash}{4898e2b33d5474fa67f1333ff5f5e6f7}
+      \strng{authorfullhash}{4898e2b33d5474fa67f1333ff5f5e6f7}
+      \strng{authorfullhashraw}{4898e2b33d5474fa67f1333ff5f5e6f7}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Automação Industrial}
+      \field{year}{[s.d.]}
+      \field{pages}{12}
+      \range{pages}{1}
+    \endentry
+    \entry{Roque2008}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7ecc718b9895beb870dba9678475847b}{%
+           family={Roque},
+           familyi={R\bibinitperiod},
+           given={Wellington},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Faculdade de Engenharia Elétrica, Universidade Estadual de Campinas}%
+      }
+      \list{location}{1}{%
+        {Campinas, SP}%
+      }
+      \strng{namehash}{7ecc718b9895beb870dba9678475847b}
+      \strng{fullhash}{7ecc718b9895beb870dba9678475847b}
+      \strng{fullhashraw}{7ecc718b9895beb870dba9678475847b}
+      \strng{bibnamehash}{7ecc718b9895beb870dba9678475847b}
+      \strng{authorbibnamehash}{7ecc718b9895beb870dba9678475847b}
+      \strng{authornamehash}{7ecc718b9895beb870dba9678475847b}
+      \strng{authorfullhash}{7ecc718b9895beb870dba9678475847b}
+      \strng{authorfullhashraw}{7ecc718b9895beb870dba9678475847b}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Desenvolvimento de um Multi-sensor Eletrônico para Medida da Umidade, Temperatura e Condutividade Elétrica do Solo}
+      \field{type}{Tese de Mestrado}
+      \field{year}{2008}
+      \field{pages}{56}
+      \range{pages}{1}
+    \endentry
+    \entry{SilvaEtAl2004}{incollection}{}{}
+      \name{author}{7}{}{%
+        {{un=1,uniquepart=given,hash=a973c6bbcac9ec800fe14a7a7ab556bf}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi de\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=ec8018968091b7384d781b2798ef8edd}{%
+           family={Buschinelli},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi C.\bibnamedelimi de\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8293151f42ade92d331bc4a10be71b8}{%
+           family={Hermes},
+           familyi={H\bibinitperiod},
+           given={L.\bibnamedelimi C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c68dd78f1f0576eb0783918e1cbc93b8}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi R.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dec836151952e76675cc1e84b2794ef3}{%
+           family={Shanahan},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=028613d80d3860cae8acf8f34e043718}{%
+           family={Schepers},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30850159b71f7f840a6eb98024c59898}{%
+           family={Junior},
+           familyi={J\bibinitperiod},
+           given={A.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{955218638355de3e16e9d1c072b778fe}
+      \strng{fullhash}{9c22055b5e33050593e6bba5ddca10e5}
+      \strng{fullhashraw}{9c22055b5e33050593e6bba5ddca10e5}
+      \strng{bibnamehash}{955218638355de3e16e9d1c072b778fe}
+      \strng{authorbibnamehash}{955218638355de3e16e9d1c072b778fe}
+      \strng{authornamehash}{955218638355de3e16e9d1c072b778fe}
+      \strng{authorfullhash}{9c22055b5e33050593e6bba5ddca10e5}
+      \strng{authorfullhashraw}{9c22055b5e33050593e6bba5ddca10e5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Agricultura de Precisão para o Manejo da Fertilidade do Solo em Sistema de Plantio Direto}
+      \field{title}{Agricultura de Precisão e Meio Ambiente}
+      \field{year}{2004}
+      \field{pages}{19\bibrangedash 36}
+      \range{pages}{18}
+    \endentry
+    \entry{Sommerville2011}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Prentice Hall}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9}
+      \field{note}{Tradução de: Kalinka Oliveira, Ivan Bosnic}
+      \field{title}{Engenharia de Software}
+      \field{year}{2011}
+      \field{pages}{529}
+      \range{pages}{1}
+    \endentry
+    \entry{Stankiewicz2017}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=51401f257c3902c1aa3b07cb5541d536}{%
+           family={Stankiewicz},
+           familyi={S\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Tecnológica Federal do Paraná}%
+      }
+      \strng{namehash}{51401f257c3902c1aa3b07cb5541d536}
+      \strng{fullhash}{51401f257c3902c1aa3b07cb5541d536}
+      \strng{fullhashraw}{51401f257c3902c1aa3b07cb5541d536}
+      \strng{bibnamehash}{51401f257c3902c1aa3b07cb5541d536}
+      \strng{authorbibnamehash}{51401f257c3902c1aa3b07cb5541d536}
+      \strng{authornamehash}{51401f257c3902c1aa3b07cb5541d536}
+      \strng{authorfullhash}{51401f257c3902c1aa3b07cb5541d536}
+      \strng{authorfullhashraw}{51401f257c3902c1aa3b07cb5541d536}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Modelo de Interação Ágil: Uma Adaptação do Modelo Cascata à Organização de Pequenas e Médias Empresas}
+      \field{type}{Trabalho de Conclusão de Curso}
+      \field{year}{2017}
+    \endentry
+    \entry{thiollent1985metodologia}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d07a463c66df834fb66632bb2126fd08}{%
+           family={Thiollent},
+           familyi={T\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Saraiva}%
+      }
+      \strng{namehash}{d07a463c66df834fb66632bb2126fd08}
+      \strng{fullhash}{d07a463c66df834fb66632bb2126fd08}
+      \strng{fullhashraw}{d07a463c66df834fb66632bb2126fd08}
+      \strng{bibnamehash}{d07a463c66df834fb66632bb2126fd08}
+      \strng{authorbibnamehash}{d07a463c66df834fb66632bb2126fd08}
+      \strng{authornamehash}{d07a463c66df834fb66632bb2126fd08}
+      \strng{authorfullhash}{d07a463c66df834fb66632bb2126fd08}
+      \strng{authorfullhashraw}{d07a463c66df834fb66632bb2126fd08}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Metodologia de Pesquisa-ação}
+      \field{year}{1985}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
